@@ -9,5 +9,8 @@
       "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*"],
 	  "js": ["jquery-1.8.2.min.js", "change_imadesyo.js", "like_imadesyo.js", "main.js"],
 	  "css": ["style.css"]
-    }]
+    }],
+	"web_accessible_resources": [
+	  "images/560x373.jpeg"
+	]
 }

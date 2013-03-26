@@ -2,7 +2,8 @@ console.log("Kiyoshi Nishihara");
 $(function(){
 
 	setInterval(function(){
-		$("img").attr("src","http://entabe.jp/upload/images/ima_2.jpg.pagespeed.ce.u2RdDXurgg.jpg");
+		var url = chrome.extension.getURL('images/560x373.jpeg');
+		$("img").attr("src",url);
 	},1000);
 		
 });
