@@ -11,6 +11,12 @@
 	  "css": ["style.css"]
     }],
 	"web_accessible_resources": [
-	  "images/560x373.jpeg"
+	  "images/1.jpeg",
+	  "images/2.jpg",
+	  "images/3.jpg",
+	  "images/4.png",
+	  "images/5.jpg",
+	  "images/6.jpg",
+	  "images/7.jpg"
 	]
 }
