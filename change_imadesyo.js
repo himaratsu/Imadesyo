@@ -8,6 +8,6 @@ $(function(){
 			//console.log($(this).width()+","+$(this).height());
 			$(this).attr("src",url);
 		});
-	},1000);
+	},5000);
 		
 });
