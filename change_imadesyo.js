@@ -4,9 +4,11 @@ $(function(){
 
 	setInterval(function(){
 		$("img").each(function(i){
-			var url = chrome.extension.getURL(imagePaths[i%7]);
-			//console.log($(this).width()+","+$(this).height());
-			$(this).attr({"src": url,"width": $(this).width(),"height": $(this).height()});
+			if($(this).attr("data") != "imadesyo"){
+				var url = chrome.extension.getURL(imagePaths[i%7]);
+				//console.log($(this).width()+","+$(this).height());
+				$(this).attr({"src":url, "width":$(this).width(), "height":$(this).height(), "data":"imadesyo"});
+			}
 		});
 	},1000);
 		
