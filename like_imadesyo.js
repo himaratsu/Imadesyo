@@ -32,5 +32,9 @@ $(function(){
 			);
 		});
 
+		$("button.like_link").each(function(){
+			$(this).attr("title", "今でしょ！")
+		});
+
 	},5000);
 });
