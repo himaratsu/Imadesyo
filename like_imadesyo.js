@@ -17,5 +17,13 @@ $(function(){
 				txt2.replace(/いいね/g, "今でしょ")
 			);
 		});
+
+		$("div.innerWrap textarea").each(function(){
+			$(this).attr("placeholder", "いつコメントするのか？...")
+			$(this).attr("title", "いつコメントするのか？...")
+			$(this).attr("content", "いつコメントするのか？...")
+			$(this).html("いつコメントするのか？...");
+		});
+
 	},5000);
 });
