@@ -25,5 +25,12 @@ $(function(){
 			$(this).html("いつコメントするのか？...");
 		});
 
+		$("h5.uiStreamMessage").each(function(){
+			var txt3 = $(this).html();
+			$(this).html(
+				txt3.replace(/いいね/g, "今でしょ")
+			);
+		});
+
 	},5000);
 });
