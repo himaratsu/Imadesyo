@@ -32,8 +32,11 @@ $(function(){
 			);
 		});
 
-		$("button.like_link").each(function(){
-			$(this).attr("title", "今でしょ！")
+		$("button.like_link span").each(function(){
+			var txt4 = $(this).html();
+			$(this).html(
+				txt4.replace(/いいね/g, "今でしょ")
+			);
 		});
 
 	},5000);
