@@ -37,6 +37,35 @@ $(function(){
 			$(this).html(
 				txt4.replace(/いいね/g, "今でしょ")
 			);
+			$(this).attr("title", "今でしょ")
+		});
+
+		$("a.uiIconText").each(function(){
+			var txt5 = $(this).html();
+			$(this).html(
+				txt5.replace(/いいね/g, "今でしょ")
+			);
+		});
+
+		$("span.uiButtonText").each(function(){
+			var txt6 = $(this).html();
+			$(this).html(
+				txt6.replace(/いいね/g, "今でしょ")
+			);
+		});
+
+		$("div.uiStreamAttachments").each(function(){
+			var txt7 = $(this).html();
+			$(this).html(
+				txt7.replace(/いいね/g, "今でしょ")
+			);
+		});
+
+		$("div.fbEmuMainBody").each(function(){
+			var txt8 = $(this).html();
+			$(this).html(
+				txt8.replace(/いいね/g, "今でしょ")
+			);
 		});
 
 	},5000);
